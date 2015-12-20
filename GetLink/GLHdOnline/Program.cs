@@ -10,6 +10,8 @@ namespace GLHdOnline
     {
         static void Main(string[] args)
         {
+            var hdOnlineClient = new HdOnlineClient();
+            var keyUrl = hdOnlineClient.GetLink("http://hdonline.vn/phim-youth-tuoi-thanh-xuan-10645.html");
         }
     }
 }

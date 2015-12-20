@@ -11,7 +11,7 @@ namespace GetLink
     {
         static void Main(string[] args)
         {
-            string url = "http://www.phimmoi.net/phim/lac-loi-o-hong-kong-3217/xem-phim.html";
+            string url = "http://hdonline.vn/phim-youth-tuoi-thanh-xuan-10645.html";
             foreach (var getLink in GetLinkClient.GetLinks)
             {
                 var arr = (SiteAttribute)getLink.GetType().GetCustomAttributes(typeof(SiteAttribute), true).FirstOrDefault();

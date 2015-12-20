@@ -7,7 +7,8 @@ namespace GLHdOnline
     {
         public string GetLink(string url)
         {
-            return url;
+            var getLinkHdOnline = new HdOnlineClient();
+            return getLinkHdOnline.GetLink(url);
         }
     }
 }
