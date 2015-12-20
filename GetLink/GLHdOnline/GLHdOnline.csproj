@@ -55,13 +55,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Pluralsight-Download\THttpWebRequest\THttpWebRequest.csproj">
-      <Project>{b3a737ac-70e9-4295-bbdb-5bc7f77945f3}</Project>
-      <Name>THttpWebRequest</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{24facdde-9a5c-4b53-a582-85fcceae5dab}</Project>
       <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\THttpWebRequest\THttpWebRequest.csproj">
+      <Project>{b3a737ac-70e9-4295-bbdb-5bc7f77945f3}</Project>
+      <Name>THttpWebRequest</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

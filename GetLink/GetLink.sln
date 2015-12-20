@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLHdOnline", "GLHdOnline\GL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhimmoiNet", "PhimmoiNet\PhimmoiNet.csproj", "{1E73ED1B-40E9-4F77-831D-2399E02ABD6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THttpWebRequest", "..\..\Pluralsight-Download\THttpWebRequest\THttpWebRequest.csproj", "{B3A737AC-70E9-4295-BBDB-5BC7F77945F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THttpWebRequest", "THttpWebRequest\THttpWebRequest.csproj", "{B3A737AC-70E9-4295-BBDB-5BC7F77945F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
