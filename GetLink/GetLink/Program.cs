@@ -11,7 +11,7 @@ namespace GetLink
     {
         static void Main(string[] args)
         {
-            string url = "http://hdonline.vn/phim-youth-tuoi-thanh-xuan-10645.html";
+            string url = "http://www.hayhaytv.vn/xem-phim/phim-bubble-gum-chuyen-tinh-bong-bong-Tap-16-hd-2338303234336E61.html";
             foreach (var getLink in GetLinkClient.GetLinks)
             {
                 var arr = (SiteAttribute)getLink.GetType().GetCustomAttributes(typeof(SiteAttribute), true).FirstOrDefault();
